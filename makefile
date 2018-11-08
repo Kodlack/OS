@@ -1,4 +1,4 @@
-SOURCE = pendu.c
+SOURCE = snek.c
 OUTPUT = jeu
 LIB = -lm -lSDl -lSDL_ttf
 LDLIBS = -lecpg -lpq
@@ -15,7 +15,7 @@ clean:$(OUTPUT)
 
 $(OUTPUT):
 	@clear
-	@gcc -o jeu pendu.c
+	@gcc -o snek snek.c
 	@printf "\n"
 	@printf "No errors, yeah !\n"
 
