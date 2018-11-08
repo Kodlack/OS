@@ -5,6 +5,60 @@
 
 int main(void)
 {
+	print("exercice 6 tp 3");
+	for(i; i<n; i++){
+		for(j; j<n; j++){
+			k = i*j
+			printf("%d * %d = %d", i, j, k)
+		}
+	}
+	
+	return 0;
+}
+
+
+/*	printf("exo 5 tp 3\n");*/
+/*	char chaine[20], lettre;*/
+/*	printf("Entrez une chaine de caractère\n");*/
+/*	scanf(" %s", chaine);*/
+/*	lettre = chaine[0];*/
+/*	int valmax=0, i=1, tampon =1;*/
+/*	while(chaine[i] != '\0'){*/
+/*		if(lettre==chaine[i]){*/
+/*			tampon++;*/
+/*		}*/
+/*		else*/
+/*		{*/
+/*			if(tampon >= valmax)*/
+/*			{*/
+/*				valmax = tampon;*/
+/*			}*/
+/*			tampon=0;*/
+/*		}*/
+/*			*/
+/*		i+=1;*/
+/*	}*/
+/*	printf("%d\n", valmax);*/
+
+
+/*	printf("exo 4 tp 3\n");*/
+/*	char chaine[20];*/
+/*	int pos;*/
+/*	printf("Entrez une chaine de caractère\n");*/
+/*	scanf(" %s", chaine);*/
+/*	printf("Entrez la position de la troncature (commence à 0)\n");*/
+/*	scanf(" %d", &pos);*/
+/*	int i=0;*/
+/*	while (i != '\0'){*/
+/*		if(i > pos){*/
+/*			chaine[i] = 0;*/
+/*		}*/
+/*		i+=1;*/
+/*	}*/
+/*	printf("%s\n", chaine);*/
+
+
+/*print("Exo 3 tp 3")
 	char _char;
 	int n;
 	printf("Valeur de _char: ");
@@ -49,10 +103,7 @@ int main(void)
 	else{
 		printf("erreur\n");
 	}
-	
-	return 0;
-}
-	
+*/
 	
 /*	int a;*/
 /*	int b;*/

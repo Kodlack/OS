@@ -1,5 +1,5 @@
-SOURCE = main.c
-OUTPUT = resultat
+SOURCE = pendu.c
+OUTPUT = jeu
 LIB = -lm -lSDl -lSDL_ttf
 LDLIBS = -lecpg -lpq
 OPT = -Wall
@@ -15,7 +15,7 @@ clean:$(OUTPUT)
 
 $(OUTPUT):
 	@clear
-	@gcc -o resultat main.c
+	@gcc -o jeu pendu.c
 	@printf "\n"
 	@printf "No errors, yeah !\n"
 
